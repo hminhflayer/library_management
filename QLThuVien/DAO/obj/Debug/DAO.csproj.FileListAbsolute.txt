@@ -1,0 +1,9 @@
+C:\Users\caomi\source\repos\QLThuVien\DAO\bin\Debug\DAO.dll
+C:\Users\caomi\source\repos\QLThuVien\DAO\bin\Debug\DAO.pdb
+C:\Users\caomi\source\repos\QLThuVien\DAO\bin\Debug\DTO.dll
+C:\Users\caomi\source\repos\QLThuVien\DAO\bin\Debug\DTO.pdb
+C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.dll
+C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.pdb

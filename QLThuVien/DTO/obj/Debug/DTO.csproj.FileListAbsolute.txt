@@ -1,0 +1,6 @@
+C:\Users\caomi\source\repos\QLThuVien\DTO\bin\Debug\DTO.dll
+C:\Users\caomi\source\repos\QLThuVien\DTO\bin\Debug\DTO.pdb
+C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.dll
+C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.pdb
+C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
