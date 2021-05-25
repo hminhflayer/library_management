@@ -47,6 +47,7 @@ namespace GUI
         frmTimTK tracuuTK;
 
         rpSach1 rpSach;
+        rpMuon rp;
 
         #endregion
 
@@ -266,7 +267,7 @@ namespace GUI
                     rbpgDangXuat.Visible = status;
                     rbpDangNhap.Visible = !status;
 
-                    if (tk.SMaQuyen == "BQL")
+                    if(tk.SMaQuyen == "ADMIN")
                     {
                         rbpQuanLy.Visible = status;
                         rbpThongKe.Visible = status;
@@ -278,6 +279,22 @@ namespace GUI
                         rbpgSach.Visible = status;
                         rbpgTheLoai.Visible = status;
                         rbpgDocGia.Visible = status;
+                        rbpgTaiKhoan.Visible = status;
+                        rbpThongKe.Visible = status;
+                        rbpDuLieu.Visible = status;
+                    }    
+                    else if (tk.SMaQuyen == "BQL")
+                    {
+                        rbpQuanLy.Visible = status;
+                        rbpThongKe.Visible = status;
+                        rbpNghiepVu.Visible = status;
+                        btnTCDocGia.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+                        btnTimTK.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
+
+                        rbpgNhanVien.Visible = status;
+                        rbpgSach.Visible = !status;
+                        rbpgTheLoai.Visible = !status;
+                        rbpgDocGia.Visible = !status;
                         rbpgTaiKhoan.Visible = status;
                         rbpThongKe.Visible = status;
                         rbpDuLieu.Visible = status;
@@ -415,20 +432,20 @@ namespace GUI
 
             Cursor.Current = Cursors.WaitCursor;
 
-            if (Directory.Exists(@"D:\QLThuVien\Database"))
+            if (Directory.Exists(@"D:\library_management\QLThuVien\Database"))
             {
-                if (File.Exists(@"D:\QLThuVien\Database\qlthuvien.bak"))
+                if (File.Exists(@"D:\library_management\QLThuVien\Database\qlthuvien.bak"))
                 {
                     if (MessageBox.Show(@"Bạn có muốn ghi đè lại dữ liệu?", "Back", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
-                        File.Delete(@"D:\QLThuVien\Database\qlthuvien.bak");
+                        File.Delete(@"D:\library_management\QLThuVien\Database\qlthuvien.bak");
                     }
                     else
                         bBackUpStatus = false;
                 }
             }
             else
-                Directory.CreateDirectory(@"D:\QLThuVien\Database");
+                Directory.CreateDirectory(@"D:\library_management\QLThuVien\Database");
 
             if (bBackUpStatus)
             {
@@ -445,7 +462,7 @@ namespace GUI
 
             try
             {
-                if (File.Exists(@"D:\QLThuVien\Database\qlthuvien.bak"))
+                if (File.Exists(@"D:\library_management\QLThuVien\Database\qlthuvien.bak"))
                 {
                     if (MessageBox.Show("Bạn có muốn khôi phục dữ liệu?", "Back", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
@@ -462,6 +479,22 @@ namespace GUI
             {
                 MessageBox.Show(exp.Message);
             }
+        }
+
+        private void btnTKMuonTra_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            if (rp == null || rp.IsDisposed)
+            {
+                rp = new rpMuon();
+                ReportPrintTool designTool = new ReportPrintTool(rp);
+                designTool.ShowPreview();
+            }
+        }
+
+        private void btnHelp_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Help.ShowHelp(this, "LibraryHelp.chm");
         }
     }
 }

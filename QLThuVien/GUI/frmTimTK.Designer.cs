@@ -71,9 +71,12 @@ namespace GUI
             // 
             // dgvDanhSachTaiKhoan
             // 
+            this.dgvDanhSachTaiKhoan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDanhSachTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSachTaiKhoan.Location = new System.Drawing.Point(7, 26);
             this.dgvDanhSachTaiKhoan.Name = "dgvDanhSachTaiKhoan";
+            this.dgvDanhSachTaiKhoan.ReadOnly = true;
+            this.dgvDanhSachTaiKhoan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDanhSachTaiKhoan.Size = new System.Drawing.Size(429, 133);
             this.dgvDanhSachTaiKhoan.TabIndex = 0;
             // 
@@ -81,7 +84,7 @@ namespace GUI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 14);
+            this.label1.Location = new System.Drawing.Point(33, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 19);
             this.label1.TabIndex = 4;

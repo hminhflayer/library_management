@@ -1,0 +1,31 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\QLThuVien\LibraryHelp.chm
+Contents file=LibraryHelp.hhc
+Index file=LibraryHelp.hhk
+Binary Index=Yes
+Full-text search=Yes
+Language=0x042A
+Title=Help Management
+Error log file=Errlog.txt
+Default Window=main
+
+[WINDOWS]
+main="Help Management","LibraryHelp.hhc","LibraryHelp.hhk","GioiThieu.mht","",,,,,0x41520,240,0x184E,[262,184,762,584],,,,0,0,0,0
+
+[FILES]
+DangNhap.mht
+DoiMatKhau.mht
+GioiThieu.mht
+MuonTra.mht
+QuanLyDocGia.mht
+QuanLyNhanVien.mht
+QuanLySach.mht
+QuanLyTaiKhoan.mht
+QuanLyTheLoai.mht
+SaoLuu.mht
+ThongKe.mht
+TraCuuDocGia.mht
+TraCuuSach.mht
+TraCuuTaiKhoan.mht
+

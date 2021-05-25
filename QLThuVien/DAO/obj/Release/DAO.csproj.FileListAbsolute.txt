@@ -1,0 +1,9 @@
+D:\library_management\QLThuVien\DAO\bin\Release\DAO.dll
+D:\library_management\QLThuVien\DAO\bin\Release\DAO.pdb
+D:\library_management\QLThuVien\DAO\bin\Release\DTO.dll
+D:\library_management\QLThuVien\DAO\bin\Release\DTO.pdb
+D:\library_management\QLThuVien\DAO\obj\Release\DAO.csprojAssemblyReference.cache
+D:\library_management\QLThuVien\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+D:\library_management\QLThuVien\DAO\obj\Release\DAO.csproj.CopyComplete
+D:\library_management\QLThuVien\DAO\obj\Release\DAO.dll
+D:\library_management\QLThuVien\DAO\obj\Release\DAO.pdb

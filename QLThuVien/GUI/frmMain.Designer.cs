@@ -55,6 +55,7 @@ namespace GUI
             this.btnTKDocGia = new DevExpress.XtraBars.BarButtonItem();
             this.btnBackup = new DevExpress.XtraBars.BarButtonItem();
             this.btnRestore = new DevExpress.XtraBars.BarButtonItem();
+            this.btnTKMuonTra = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -73,9 +74,8 @@ namespace GUI
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpDuLieu = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.timeSpanChartRangeControlClient1 = new DevExpress.XtraEditors.TimeSpanChartRangeControlClient();
+            this.btnHelp = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeSpanChartRangeControlClient1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -108,10 +108,13 @@ namespace GUI
             this.btnTimTK,
             this.btnTKDocGia,
             this.btnBackup,
-            this.btnRestore});
+            this.btnRestore,
+            this.btnTKMuonTra,
+            this.btnHelp});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 27;
+            this.ribbonControl1.MaxItemId = 30;
             this.ribbonControl1.Name = "ribbonControl1";
+            this.ribbonControl1.PageHeaderItemLinks.Add(this.btnHelp);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage2,
             this.ribbonPage1,
@@ -304,6 +307,7 @@ namespace GUI
             // 
             this.btnTKDocGia.Caption = "Thống kê độc giả";
             this.btnTKDocGia.Id = 24;
+            this.btnTKDocGia.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTKDocGia.ImageOptions.Image")));
             this.btnTKDocGia.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnTKDocGia.ImageOptions.LargeImage")));
             this.btnTKDocGia.Name = "btnTKDocGia";
             // 
@@ -324,6 +328,15 @@ namespace GUI
             this.btnRestore.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnRestore.ImageOptions.LargeImage")));
             this.btnRestore.Name = "btnRestore";
             this.btnRestore.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnRestore_ItemClick);
+            // 
+            // btnTKMuonTra
+            // 
+            this.btnTKMuonTra.Caption = "Thống kê mượn";
+            this.btnTKMuonTra.Id = 27;
+            this.btnTKMuonTra.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTKMuonTra.ImageOptions.Image")));
+            this.btnTKMuonTra.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnTKMuonTra.ImageOptions.LargeImage")));
+            this.btnTKMuonTra.Name = "btnTKMuonTra";
+            this.btnTKMuonTra.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnTKMuonTra_ItemClick);
             // 
             // ribbonPage2
             // 
@@ -431,6 +444,7 @@ namespace GUI
             // 
             this.rbpgTinhTrang.ItemLinks.Add(this.btnThongKeSach);
             this.rbpgTinhTrang.ItemLinks.Add(this.btnTKDocGia);
+            this.rbpgTinhTrang.ItemLinks.Add(this.btnTKMuonTra);
             this.rbpgTinhTrang.Name = "rbpgTinhTrang";
             this.rbpgTinhTrang.Text = "Thống kê";
             // 
@@ -464,6 +478,15 @@ namespace GUI
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Thao tác trên dữ liệu";
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Caption = "Trợ giúp";
+            this.btnHelp.Id = 29;
+            this.btnHelp.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnHelp.ImageOptions.Image")));
+            this.btnHelp.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnHelp.ImageOptions.LargeImage")));
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnHelp_ItemClick);
+            // 
             // frmMain
             // 
             this.Appearance.Options.UseFont = true;
@@ -479,7 +502,6 @@ namespace GUI
             this.Text = "QUẢN LÝ THƯ VIỆN";
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeSpanChartRangeControlClient1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -530,7 +552,8 @@ namespace GUI
         private DevExpress.XtraBars.BarButtonItem btnRestore;
         private DevExpress.XtraBars.Ribbon.RibbonPage rbpDuLieu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
-        private DevExpress.XtraEditors.TimeSpanChartRangeControlClient timeSpanChartRangeControlClient1;
+        private DevExpress.XtraBars.BarButtonItem btnTKMuonTra;
+        private DevExpress.XtraBars.BarButtonItem btnHelp;
     }
 }
 

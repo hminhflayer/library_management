@@ -7,3 +7,12 @@ C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.csproj.CoreCompileInputs
 C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.dll
 C:\Users\caomi\source\repos\QLThuVien\DAO\obj\Debug\DAO.pdb
+D:\library_management\QLThuVien\DAO\bin\Debug\DAO.dll
+D:\library_management\QLThuVien\DAO\bin\Debug\DAO.pdb
+D:\library_management\QLThuVien\DAO\bin\Debug\DTO.dll
+D:\library_management\QLThuVien\DAO\bin\Debug\DTO.pdb
+D:\library_management\QLThuVien\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\library_management\QLThuVien\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\library_management\QLThuVien\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\library_management\QLThuVien\DAO\obj\Debug\DAO.dll
+D:\library_management\QLThuVien\DAO\obj\Debug\DAO.pdb

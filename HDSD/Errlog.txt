@@ -1,0 +1,14 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\library_management\QLThuVien\LibraryHelp.chm
+
+
+Compile time: 0 minutes, 1 second
+16	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created d:\library_management\QLThuVien\LibraryHelp.chm, 540,352 bytes
+Compression decreased file by 815,315 bytes.

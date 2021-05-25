@@ -4,3 +4,9 @@ C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs
 C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.dll
 C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.pdb
 C:\Users\caomi\source\repos\QLThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\library_management\QLThuVien\DTO\bin\Debug\DTO.dll
+D:\library_management\QLThuVien\DTO\bin\Debug\DTO.pdb
+D:\library_management\QLThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\library_management\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\library_management\QLThuVien\DTO\obj\Debug\DTO.dll
+D:\library_management\QLThuVien\DTO\obj\Debug\DTO.pdb

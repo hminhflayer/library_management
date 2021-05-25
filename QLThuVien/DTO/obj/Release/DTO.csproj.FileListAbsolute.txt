@@ -1,0 +1,6 @@
+D:\library_management\QLThuVien\DTO\bin\Release\DTO.dll
+D:\library_management\QLThuVien\DTO\bin\Release\DTO.pdb
+D:\library_management\QLThuVien\DTO\obj\Release\DTO.csprojAssemblyReference.cache
+D:\library_management\QLThuVien\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+D:\library_management\QLThuVien\DTO\obj\Release\DTO.dll
+D:\library_management\QLThuVien\DTO\obj\Release\DTO.pdb

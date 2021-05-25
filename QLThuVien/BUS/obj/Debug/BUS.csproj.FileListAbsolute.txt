@@ -20,3 +20,14 @@ D:\QLThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\QLThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\QLThuVien\BUS\obj\Debug\BUS.dll
 D:\QLThuVien\BUS\obj\Debug\BUS.pdb
+D:\library_management\QLThuVien\BUS\bin\Debug\BUS.dll
+D:\library_management\QLThuVien\BUS\bin\Debug\BUS.pdb
+D:\library_management\QLThuVien\BUS\bin\Debug\DAO.dll
+D:\library_management\QLThuVien\BUS\bin\Debug\DTO.dll
+D:\library_management\QLThuVien\BUS\bin\Debug\DAO.pdb
+D:\library_management\QLThuVien\BUS\bin\Debug\DTO.pdb
+D:\library_management\QLThuVien\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\library_management\QLThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\library_management\QLThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\library_management\QLThuVien\BUS\obj\Debug\BUS.dll
+D:\library_management\QLThuVien\BUS\obj\Debug\BUS.pdb

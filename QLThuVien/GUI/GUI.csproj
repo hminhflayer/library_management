@@ -201,6 +201,12 @@
     <Compile Include="rpDocGia.Designer.cs">
       <DependentUpon>rpDocGia.cs</DependentUpon>
     </Compile>
+    <Compile Include="rpMuon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpMuon.Designer.cs">
+      <DependentUpon>rpMuon.cs</DependentUpon>
+    </Compile>
     <Compile Include="rpSach1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="rpDocGia.resx">
       <DependentUpon>rpDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpMuon.resx">
+      <DependentUpon>rpMuon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rpSach1.resx">
       <DependentUpon>rpSach1.cs</DependentUpon>
